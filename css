@@ -1,0 +1,159 @@
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  border-left: 2px solid #00f28f;
+  font-size: 48px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+form input {
+  background: #f0f0f0;
+
+  border: none;
+  border-left: 2px solid #fff;
+
+  font-size: 36px;
+  padding: 20px;
+  width: 100%;
+
+  transition: background 2s, border-left 2s;
+}
+
+form input:focus {
+  background: #fff;
+  border-left: 2px solid #000;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+
+  color: #00f28f;
+  cursor: pointer;
+
+  font-size: 36px;
+
+  padding: 20px 24px;
+
+  transition: background 2s, color 2s;
+}
+
+.btn:hover {
+  background: #00f28f;
+  color: #fff;
+}
+
+.comments {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  padding-left: 20px;
+  border-left: 2px solid #000;
+  font-size: 36px;
+  margin: 0 0 36px;
+}
+
+/*-------Icon Pack4------*/
+/*Created By Sami Khan.*/
+.icon-pack4 {
+  background-color: white;
+  padding: 20px 0;
+  color: #00f28f;
+}
+
+.icon-pack4 ul li {
+  list-style-type: none;
+  margin: 0 7px;
+}
+.icon-pack4 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-pack4 ul li a {
+  display: block;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #f1f1f1;
+  text-align: center;
+  border-radius: 50%;
+  padding: 6px;
+  margin: 0 10px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: -webkit-linear-gradient(0deg, #ccc, #fff);
+  background: -moz-linear-gradient(0deg, #ccc, #fff);
+  background: -o-linear-gradient(0deg, #ccc, #fff);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+}
+.icon-pack4 ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+  -o-box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+.icon-pack4 ul li a .fa {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 30px;
+  background: -webkit-linear-gradient(0deg, #ccc, #fff);
+  background: -moz-linear-gradient(0deg, #ccc, #fff);
+  background: -o-linear-gradient(0deg, #ccc, #fff);
+  color: #262626;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+}
+.icon-pack4 ul li:nth-child(1) a:hover .fa {
+  color: #3b5999;
+  background: -webkit-linear-gradient(0deg, #fff, #ddd);
+  background: -moz-linear-gradient(0deg, #fff, #ddd);
+  background: -o-linear-gradient(0deg, #fff, #ddd);
+}
+.icon-pack4 ul li:nth-child(2) a:hover .fa {
+  color: #dd4b39;
+  background: -webkit-linear-gradient(0deg, #fff, #ddd);
+  background: -moz-linear-gradient(0deg, #fff, #ddd);
+  background: -o-linear-gradient(0deg, #fff, #ddd);
+}
+.icon-pack4 ul li:nth-child(3) a:hover .fa {
+  color: #e4405f;
+  background: -webkit-linear-gradient(0deg, #fff, #ddd);
+  background: -moz-linear-gradient(0deg, #fff, #ddd);
+  background: -o-linear-gradient(0deg, #fff, #ddd);
+}
+.icon-pack4 ul li:nth-child(4) a:hover .fa {
+  background: -webkit-linear-gradient(0deg, #fff, #ddd);
+  background: -moz-linear-gradient(0deg, #fff, #ddd);
+  background: -o-linear-gradient(0deg, #fff, #ddd);
+  color: #55acee;
+}
